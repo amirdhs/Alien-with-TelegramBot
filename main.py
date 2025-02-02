@@ -4,9 +4,11 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext, ConversationHandler
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import ContextTypes
+from config import BOT_TOKEN
+
 
 # Your Telegram Bot Token
-BOT_TOKEN = '7878139240:AAHLABRRF2F0AERA25j9MplY7POCCBd9BGw'
+API = BOT_TOKEN
 
 # States for conversation handler
 CHOOSING, TRANSLATING = range(2)
