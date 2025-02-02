@@ -22,7 +22,7 @@ bash
 
 Copy
 
-`git clone [https://github.com/yourusername/alien-project.git](https://github.com/amirdhs/Alien-with-TelegramBot.git)
+`git clone https://github.com/amirdhs/Alien-with-TelegramBot.git
 cd hackathon-alien-project`
 
 1.  Install the required dependencies:
